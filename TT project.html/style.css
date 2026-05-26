@@ -1,0 +1,125 @@
+body{
+    margin:0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('forest.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav{
+    background-color:rgba(58, 106, 4, 0.7);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+nav h2{
+    color: white;
+    margin-right: auto;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    margin:0 15px;
+    font-weight: bold;
+}
+.button{
+    transition: 0.3s;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    background-color: #1b5e20;
+    cursor:pointer;
+}
+.hero{
+    text-align: center;
+    padding: 80px 20px;
+    background-color: rgba(87, 240, 100,0.7);
+}
+.hero h1{
+    font-size: 40px;
+}
+.hero button{
+    padding:12px 25px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.about, .events, .cta{
+    text-align: center;
+    padding:50px 20px ;
+    margin-top: 70px auto;
+}
+.about{
+    background-color: rgba(174,236,104,0.7);
+    margin:0;
+}
+.events{
+    background-color: rgba(92,214,102,0.7);
+    margin: 0;
+}
+.events ul{
+    list-style: none;
+    padding:0;
+}
+.events li{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.cta{
+    background-color: rgba(117,237,121,0.7);
+    margin: 0;
+}
+.cta button{
+    padding: 12px 25px;
+    background-color: #1b5e20;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.form-box{
+    max-width: 400px;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+    
+.form-box label,.form-box select,.form-box textarea{
+    width:100px ;
+    padding:10px ;
+    margin-top:5px ;
+    border-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.form-box textarea{
+    width:200px;
+    padding: 0px;
+}
+.form-box button {
+    padding: 10px 15px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.form-box button:hover {
+    background-color: #1b5e20;
+    cursor: pointer;
+}
+.success-box{
+    background: rgba(255,255,255,0.2);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}

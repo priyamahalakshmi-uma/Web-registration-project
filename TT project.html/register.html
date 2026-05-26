@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form class="form-box" action="success.html">
+            <label>First Name</label><br>
+            <input type="text" placeholder="Enter your first name" required><br><br>
+            <label>Last Name</label><br>
+            <input type="text" placeholder="Enter your last name"><br><br>
+            <label>Email</label><br>
+            <input type="email" placeholder="Enter your mail ID" required><br><br>
+            <label>Age</label><br>
+            <input type="number" placeholder="Enter your age" ><br><br>
+            <label>Contact Number</label><br>
+            <input type="tel" placeholder="Entter your number" pattern="[0-9]{10}"><br><br>
+            <label>Gender</label><br>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female <br><br>
+            <label>Select Event</label><br>
+            <select>
+                <option>Tree Plantation</option>
+                <option>Forest Cleaning</option>
+                <option>Awareness Campaign</option>
+            </select><br><br>
+            <label>Address</label><br>
+            <textarea rows="4" cols="30"></textarea><br><br>
+            <button type="Submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
